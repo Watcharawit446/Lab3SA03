@@ -1,14 +1,15 @@
 import React from 'react';
-import './App.css';
 import WordCard from './WordCard';
-const word ="Hello";
+import './App.css';
+import Hint from './Hintstate';
+const word = "Hello";
 function App() {
- return (
- <div>
-  {
-   <WordCard value="hello"/>
-  }
-</div>
- );
+  return (
+    <div>
+      <WordCard value="hello"/>
+      <Hint></Hint>
+    </div>
+  );
+
 }
 export default App;
