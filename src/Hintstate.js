@@ -14,3 +14,12 @@ constructor(props){
         })
       }  
   }
+      render(){
+        return (
+          <div>
+            <p>{this.state.fhint}</p>
+            <button
+              type="button" onClick={this.changeHint} >Click !!</button>
+          </div>
+        );
+      }
